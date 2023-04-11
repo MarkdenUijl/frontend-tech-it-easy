@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS RESET: */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* FONTS */
+
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TABLE OF CONTENTS:
+    1. OPDRACHT 2 CSS Elementen
+
+ */
+
+
+/* --------------- 1. OPDRACHT 2 CSS ELEMENTEN: --------------- */
+.information-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 250px;
+    background-color: linen;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#sold-televisions b {
+    color: green;
+}
+
+#purchased-televisions b {
+    color: blue;
+}
+
+#televisions-to-be-sold b {
+    color: red;
+}
