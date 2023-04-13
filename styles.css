@@ -16,12 +16,17 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: ghostwhite;
+    padding: 50px;
+    gap: 40px;
 }
 
-/* TABLE OF CONTENTS:
+/* TABLE OF CONTENTS: ////////////////////////
     1. OPDRACHT 2 CSS Elementen
     2. OPDRACHT 3 CSS Elementen
- */
+    3. OPDRACHT 4 CSS Elementen
+    4. BONUS OPDRACHT CSS Elementen
+ //////////////////////////////////////////*/
 
 
 /* --------------- 1. OPDRACHT 2 CSS ELEMENTEN: --------------- */
@@ -32,7 +37,6 @@ main {
     justify-content: space-around;
     flex-shrink: 1;
     align-items: center;
-    padding: 40px;
 }
 
 .sales-information-tag {
@@ -72,4 +76,34 @@ main {
 
 #brand-list li {
     list-style-type: none;
+}
+
+/* --------------- 3. OPDRACHT 4 CSS ELEMENTEN: --------------- */
+.television-information-container {
+    background-color: linen;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 100%;
+}
+
+#television-information-list li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+/* --------------- 4. BONUS OPDRACHT CSS Elementen ------------ */
+button {
+    background-color: burlywood;
+    color: darkred;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
 }
