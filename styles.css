@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CSS RESET: */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* FONTS */
+
+main {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    padding: 50px;
+    gap: 40px;
+}
+
+/* TABLE OF CONTENTS: ////////////////////////
+    1. OPDRACHT 2 CSS Elementen
+    2. OPDRACHT 3 CSS Elementen
+    3. OPDRACHT 4 CSS Elementen
+    4. BONUS OPDRACHT CSS Elementen
+ //////////////////////////////////////////*/
+
+
+/* --------------- 1. OPDRACHT 2 CSS ELEMENTEN: --------------- */
+.sales-information-container {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: space-around;
+    flex-shrink: 1;
+    align-items: center;
+}
+
+.sales-information-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 250px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    background-color: linen;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#sold-televisions b {
+    color: green;
+}
+
+#purchased-televisions b {
+    color: blue;
+}
+
+#televisions-to-be-sold b {
+    color: red;
+}
+
+/* --------------- 2. OPDRACHT 3 CSS ELEMENTEN: --------------- */
+#brand-list {
+    max-width: 250px;
+    text-align: center;
+    background-color: linen;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#brand-list li {
+    list-style-type: none;
+}
+
+/* --------------- 3. OPDRACHT 4 CSS ELEMENTEN: --------------- */
+.television-information-container {
+    background-color: linen;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 100%;
+}
+
+#television-information-list li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+/* --------------- 4. BONUS OPDRACHT CSS Elementen ------------ */
+button {
+    background-color: burlywood;
+    color: darkred;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
